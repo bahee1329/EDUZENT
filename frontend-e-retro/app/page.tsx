@@ -1,8 +1,8 @@
 import Banner from './presentation/components/Banner/index';
 import Companies from './presentation/components/Companies/Companies';
 import Courses from './presentation/components/Courses/index';
-import Mentor from './presentation/components/Mentor/index';
-import Testimonials from './presentation/components/Testimonials/index';
+import Mentor from './presentation/components/Teacher/index';
+import Testimonials from './presentation/components/Archivements/index';
 import Newsletter from './presentation/components/Newsletter/Newsletter';
 
 
