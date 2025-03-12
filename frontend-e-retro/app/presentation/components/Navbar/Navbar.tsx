@@ -60,12 +60,12 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center">
                                 <img
                                     className="block h-12 w-40 lg:hidden"
-                                    src={'/assets/logo/logo.svg'}
-                                    alt="dsign-logo"
+                                    src={'/assets/logo/navbar_logo.png'}
+                                    alt="dsigner-logo"
                                 />
                                 <img
-                                    className="hidden h-full w-full lg:block"
-                                    src={'/assets/logo/logo.svg'}
+                                    className="hidden h-16 w-48 lg:block"
+                                    src={'/assets/logo/navbar_logo.png'}
                                     alt="dsign-logo"
                                 />
                             </div>
