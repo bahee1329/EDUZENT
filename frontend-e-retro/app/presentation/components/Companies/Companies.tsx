@@ -10,28 +10,28 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/assets/carousel/airbnb.svg"
+        imgSrc: "/assets/carousel/c1.jpg"
     },
     {
-        imgSrc: "/assets/carousel/fedex.svg"
+        imgSrc: "/assets/carousel/c2.jpg"
     },
     {
-        imgSrc: "/assets/carousel/google.svg"
+        imgSrc: "/assets/carousel/c3.jpg"
     },
     {
-        imgSrc: "/assets/carousel/hubspot.svg"
+        imgSrc: "/assets/carousel/c4.jpg"
     },
     {
-        imgSrc: "/assets/carousel/microsoft.svg"
+        imgSrc: "/assets/carousel/c1.jpg"
     },
     {
-        imgSrc: "/assets/carousel/walmart.svg"
+        imgSrc: "/assets/carousel/c2.jpg"
     },
     {
-        imgSrc: "/assets/carousel/airbnb.svg"
+        imgSrc: "/assets/carousel/c3.jpg"
     },
     {
-        imgSrc: "/assets/carousel/fedex.svg"
+        imgSrc: "/assets/carousel/c1.jpg"
     }
 ]
 
@@ -84,7 +84,7 @@ export default class MultipleItems extends Component {
 
             <div className='text-center my-20'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-                    <h2 className="text-midnightblue text-2xl font-semibold">Trusted by companies of all sizes</h2>
+                    <h2 className="text-midnightblue text-2xl font-semibold">We have branches located throughout Sri Lanka.</h2>
                     <div className="py-14">
                         <Slider {...settings}>
                             {data.map((item, i) =>
